@@ -1,0 +1,539 @@
+body {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.header {
+  background-color: white;
+  border-bottom: 3px solid black;
+  position: fixed;
+  height: 100px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.header__link {
+  margin-left: 270px;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__link > a {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.header__link > a:hover {
+  color: #837373;
+}
+.header__network {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__twitter {
+  margin-left: 20px;
+}
+.header__pinterest {
+  margin-left: 20px;
+}
+.header__instagram {
+  margin-left: 20px;
+}
+
+.main {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.grid {
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+  width: 1200px;
+}
+.grid__tytle {
+  width: 100%;
+}
+.grid__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+.grid__cont-one {
+  width: 100%;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.grid__ice {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.grid__ice-cont {
+  background-image: url(../image_ice.webp);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__order {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.grid__order-box {
+  background-color: #fde5e5;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.grid__order-content {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+  width: 270px;
+}
+.grid__order-tytle {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.grid__order-btn {
+  width: 140px;
+  height: 50px;
+  margin-left: 65px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid white;
+}
+.grid__romantic {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.grid__romantic-cont {
+  background-image: url(../image_romantic.webp);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__container-one {
+  width: 33.333%;
+}
+.grid__cakes {
+  background-color: #dfdddd;
+  width: 100%;
+  height: 100px;
+}
+.grid__cakes-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.grid__cakes-tytle {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.grid__cont-two {
+  width: 100%;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.grid__about {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.grid__about-box {
+  background-image: url(../image_about.webp);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__about-btn {
+  position: relative;
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid white;
+  margin-top: 400px;
+  margin-left: 400px;
+}
+.grid__contact {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.grid__contact-box {
+  background-image: url(../image_contact.webp);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__contact-btn {
+  position: relative;
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid white;
+  margin-top: 400px;
+  margin-left: 400px;
+}
+.grid__container-two {
+  width: 50%;
+}
+
+.inst {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+  width: 1200px;
+}
+.inst__tytle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.inst__box {
+  width: 100%;
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.inst__one {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 12.5%;
+}
+.inst__two {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 12.5%;
+}
+.inst__three {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 12.5%;
+}
+.inst__box {
+  height: 150px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inst__one-box {
+  background-image: url(../one.jpg);
+}
+.inst__two-box {
+  background-image: url(../two.jpg);
+}
+.inst__three-box {
+  background-image: url(../three.jpg);
+}
+.inst__four-box {
+  background-image: url(../four.jpg);
+}
+.inst__five-box {
+  background-image: url(../five.jpg);
+}
+.inst__six-box {
+  background-image: url(../six.jpg);
+}
+.inst__seven-box {
+  background-image: url(../seven.jpg);
+}
+.inst__eight-box {
+  background-image: url(../eight.jpg);
+}
+
+.form {
+  margin-top: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.form__box {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+.form__container {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+.form__tytle {
+  text-align: center;
+}
+.form__input {
+  width: 300px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.form__btn {
+  height: 30px;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.form__btn:hover {
+  background-color: #797474;
+  border: 1px solid #797474;
+}
+
+.about-box {
+  margin-top: 80px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+
+.middle {
+  width: 1200px;
+}
+.middle__box {
+  width: 100%;
+  background-color: #fde5e5;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+}
+.middle__cont {
+  width: 600px;
+  margin: 0 auto;
+}
+.middle__tytle-one {
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.middle__tytle-two {
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.middle__img {
+  background-image: url(../image_about.webp);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 70px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+.middle__text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.central {
+  width: 1200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.central__contact {
+  background-color: #fde5e5;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.central__contact-text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.central__cont {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  width: 700px;
+  margin: 0 auto;
+}
+.central__cont-tytle {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.central__cont-text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.central__form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.central__input-one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.central__input {
+  width: 320px;
+  border: 2px solid white;
+  border-bottom-color: #999494;
+}
+.central__input-text {
+  width: 690px;
+  margin-top: 30px;
+  border: 2px solid white;
+  border-bottom-color: #999494;
+}
+.central__btn {
+  width: 700px;
+  margin-top: 70px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+.central__btn:hover {
+  border: 1px solid #999494;
+  background-color: #999494;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  flex-flow: column;
+}
+
+.fon {
+  width: 1200px;
+  background-color: #fde5e5;
+  height: 150px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.fon__text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.produckt {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.produckt__one {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+.produckt__one-tytle {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.produckt__one-text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.produckt__two {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+.produckt__two-tytle {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.produckt__two-text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.produckt__image-one {
+  background-image: url(../image_ice.webp);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+.produckt__image-two {
+  background-image: url(../image_romantic.webp);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+.produckt__image-three {
+  background-image: url(../six.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+.produckt__image-four {
+  background-image: url(../seven.jpg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */
